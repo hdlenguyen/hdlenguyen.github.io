@@ -36,20 +36,20 @@ body {
   /* padding: 0 auto; */
   margin: 32px 0;
   display: inline-flex;
-  height: 200px;
+  /* height: 200px; */
   position: relative;
 }
 
 .case-study-body-container {
-  width: 80%;
+  width: 50%;
+  margin: auto 0;
 }
 
 .case-study-image {
-  width: 20%;
-  display: inline-block;
+  width: 50%;
   margin-right: 30px;
   display: inline-flex;
-  height: 200px;
+  /* height: 200px; */
   position: relative;
 }
 
@@ -58,14 +58,15 @@ body {
 }
 
 .case-study-title {
-  font-size: 40px;
+  text-align: left;
+  font-size: 64px;
   margin-bottom: 24px;
 }
 
 .case-study-text {
   text-align: left;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .case-study-button-text {
@@ -121,8 +122,15 @@ body {
 }
 
 .portfolio-body {
-  margin-top: 16px;
+  margin-top: 24px;
   font-size: 18px;
+}
+
+.portfolio-caption {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.54;
+  margin-top: 4px;
 }
 
 .footer {
