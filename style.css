@@ -78,6 +78,7 @@ body {
 .back-button {
   position: fixed;
   top: 25px;
+  cursor: pointer;
 }
 
 .back-button a {
@@ -92,6 +93,15 @@ body {
   border-radius: 7px;
 }
     
+.back-arrow {
+  font-size: 27px;
+}
+
+.back-text {
+  position: relative;
+  top: -3px;
+}
+
 .portfolio-post {
   width: 65%;
   margin: 0 auto 64px auto;
@@ -123,6 +133,7 @@ body {
 .portfolio-title {
   margin-top: 32px;
   font-size: 40px;
+  text-align: center;
 }
 
 .portfolio-heading {

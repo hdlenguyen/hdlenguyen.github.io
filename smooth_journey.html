@@ -14,13 +14,18 @@
   </head>
 
   <body>
-    <div class='back-button'><a href="index.html"><div><-- Back</div></a></div>
+    <div class='back-button'><a onclick="goBack()"><div><span class='back-arrow'>←</span><span class='back-text'> Back</span></div></a></div>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
     <div class='name'>Hai-Dao Le-Nguyen</div>
     <div class='portfolio-post'>
+      <div class='portfolio-title'>Smooth Journey: Flight selection UX</div>
       <div class='portfolio-image'>
         <img src='portfolio/smooth_journey/smooth_journey_overview.png'>
       </div>
-      <div class='portfolio-title'>Smooth Journey: Flight selection UX</div>
       <div class='portfolio-heading'>Problem</div>
       <div class='portfolio-body'>As a frequent flier, I’ve purchased flights from many different airlines — all with a different user experience ranging from frustrating to fantastic. To make it more complicated, I often switch from mobile to desktop and so forth when researching flight details. Different UIs have frustrated me and I wanted a fluid web experience as <a href='https://skift.com/2016/10/26/growth-of-mobile-travel-bookings-in-6-charts/'>most people who book travel on mobile book through web</a>.</div>
       <div class='portfolio-heading'>Research</div>

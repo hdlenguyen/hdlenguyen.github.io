@@ -14,13 +14,18 @@
   </head>
 
   <body>
-    <div class='back-button'><a href="index.html"><div><-- Back</div></a></div>
+    <div class='back-button'><a onclick="goBack()"><div><span class='back-arrow'>←</span><span class='back-text'> Back</span></div></a></div>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
     <div class='name'>Hai-Dao Le-Nguyen</div>
     <div class='portfolio-post'>
+      <div class='portfolio-title'>Last Call: Food Waste App</div>
       <div class='portfolio-image'>
         <img src='portfolio/last_call/last-call-header.png'>
       </div>
-      <div class='portfolio-title'>Last Call: Food Waste App</div>
       <div class='portfolio-heading'>Problem</div>
       <div class='portfolio-body'>Food waste is a serious problem in Canada - <a href="http://tfpc.to/food-waste-landing/food-waste-theissue">approximately 40% of food grown yearly in Canada is thrown in the trash.</a> A significant contributor to food waste is the food service industry. Restaurants, bakeries, and other food retailers find themselves throwing out perfectly good food at the end of the workday. After all, few customers are eager to buy old food. Or is that true? My solution to food waste in the food service industry is Last Call, an app that connects restaurants with surplus food at a discount to customers who are glad to eat what would have gone to waste. Restaurants can profit from what would’ve gone to the landfill, customers can enjoy good food at a bargain, and food waste  from industry is minimized.</div>
       <div class='portfolio-heading'>Research</div>

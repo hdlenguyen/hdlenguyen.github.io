@@ -14,13 +14,18 @@
   </head>
 
   <body>
-    <div class='back-button'><a href="index.html"><div><-- Back</div></a></div>
+    <div class='back-button'><a onclick="goBack()"><div><span class='back-arrow'>←</span><span class='back-text'> Back</span></div></a></div>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
     <div class='name'>Hai-Dao Le-Nguyen</div>
     <div class='portfolio-post'>
+      <div class='portfolio-title'>Dusk2Dawn: Apple Watch Timezone App</div>
       <div class='portfolio-image'>
         <img src='portfolio/dusk2dawn/dusk2dawn_overview.png'>
       </div>
-      <div class='portfolio-title'>Dusk2Dawn: Apple Watch Timezone App</div>
       <div class='portfolio-heading'>Problem</div>
       <div class='portfolio-body'>In the last year, my boyfriend has moved from Canada to the US and then Sweden. With him moving to England for the summer before returning home, I wanted an easier way to keep track of the time where he was.</div>
       <div class='portfolio-body'> Although there were time zone widgets in the clock app on my phone, they weren’t very visually attractive and gave me more information than I was seeking. I also wanted to look at what a clock app on a digital interface like the Apple Watch could look like. That was the birth of Dusk2Dawn.</div>
