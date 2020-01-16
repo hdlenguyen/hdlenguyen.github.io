@@ -4,30 +4,22 @@ body {
   padding-right: 60px;
 }
 
-.about-text {
-  margin: 100px 60px 60px 48px;
-  font-size: 28px;
-}
-
-.nav-bar {
-  text-align: right;
-  margin-top: 20px;
-  margin-bottom: 60px;
-  /* background-color: grey; */
-  padding: 8px 0;
-}
-
-.nav-bar-name {
-  float: left;
+.name {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
   font-size: 50px;
 }
 
-.nav-bar-item {
-  display: inline-block;
-  margin-left: 15px;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
+.about-text {
+  font-size: 27px;
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.contact-text {
+  margin-top: 10px;
 }
 
 .case-study-container {
