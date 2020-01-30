@@ -8,15 +8,16 @@ body {
   margin-top: 60px;
   margin-bottom: 50px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   /*color: #54575a;*/
   color: black;
+  font-weight: bold;
 }
 
 .about-text {
-  font-size: 27px;
+  font-size: 24px;
   width: 80%;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
   /*color: #54575a;*/
   color: black;
@@ -108,6 +109,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .project-container {
@@ -146,7 +148,7 @@ body {
 }
 
 .project-subtitle {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 a {
@@ -165,6 +167,11 @@ a {
     opacity: 1;
 }
 */
+
+.copyright {
+  color: gray;
+  text-align: center;
+}
 .back-button {
   position: fixed;
   top: 25px;
