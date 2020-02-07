@@ -1,7 +1,5 @@
 body {
   font-family: 'Lato', sans-serif;
-/*  padding-left: 60px;
-  padding-right: 60px;*/
 }
 
 .name {
@@ -9,24 +7,20 @@ body {
   margin-bottom: 50px;
   text-align: center;
   font-size: 40px;
-  /*color: #54575a;*/
   color: black;
   font-weight: bold;
 }
 
 .about-text {
   font-size: 24px;
-  /*width: 80%;*/
   text-align: center;
   margin: 0 auto;
-  /*color: #54575a;*/
   color: black;
-
+  width: 80%;
 }
 
 .contact-text {
   margin-top: 10px;
-  /*color: #54575a;*/
   color: black;
 }
 
@@ -40,20 +34,13 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  margin: 30px 1% 50px 1%;
+  margin: 30px 1% 0 1%;
 }
 
 .project-container {
   flex: 48%;
   max-width: 48%;
   margin-bottom: 30px;
-}
-
-@media (max-width: 900px) {
-  .project-container {
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 .project-container:hover {
@@ -87,22 +74,12 @@ a {
   text-decoration: none;
 }
 
-/*.project-container::after {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.project-container:hover::after {
-    opacity: 1;
-}
-*/
-
 .copyright {
   color: gray;
   text-align: center;
+  margin-top: 50px;
 }
+
 .back-button {
   position: fixed;
   top: 25px;
@@ -131,13 +108,13 @@ a {
 }
 
 .portfolio-post {
-  width: 65%;
+  width: 80%;
   margin: 0 auto 64px auto;
 }
 
 .portfolio-image {
   text-align: center;
-  margin-top: 32px;
+  /*margin-top: 32px;*/
 }
 
 .portfolio-image img {
@@ -146,12 +123,16 @@ a {
 
 .portfolio-image-row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 16px;
 }
 
 .portfolio-image-column {
-  flex: 33.33%;
-  padding: 5px;
+  flex: 33%;
+  max-width: 33%;
+  /*padding: 5px;*/
 }
 
 .portfolio-image-column img {
@@ -160,17 +141,20 @@ a {
 
 .portfolio-title {
   margin-top: 32px;
+  margin-bottom: 32px;
   font-size: 40px;
   text-align: center;
 }
 
 .portfolio-heading {
   margin-top: 32px;
+  margin-bottom: 24px;
   font-size: 24px;
 }
 
 .portfolio-body {
   margin-top: 24px;
+  margin-bottom: 24px;
   font-size: 18px;
 }
 
@@ -179,4 +163,29 @@ a {
   font-size: 14px;
   opacity: 0.54;
   margin-top: 4px;
+}
+
+/* Mobile Support */
+
+@media (max-width: 900px) {
+  .project-container {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .about-text {
+    width: 100%;
+  }
+
+  .portfolio-image-column {
+    max-width: 100%;
+    flex: 100%;
+  }
+
+  .portfolio-post {
+    width: 100%;
+  }
+
+  .back-button {
+    visibility: hidden;
+  }
 }
