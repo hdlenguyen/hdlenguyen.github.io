@@ -1,7 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
-  padding-left: 60px;
-  padding-right: 60px;
+/*  padding-left: 60px;
+  padding-right: 60px;*/
 }
 
 .name {
@@ -16,7 +16,7 @@ body {
 
 .about-text {
   font-size: 24px;
-  width: 80%;
+  /*width: 80%;*/
   text-align: center;
   margin: 0 auto;
   /*color: #54575a;*/
@@ -35,81 +35,12 @@ body {
   text-decoration: none;
 }
 
-.case-study-container {
-  background-color: #ffd7d7;
-  padding: 32px 64px 32px 64px;
-  margin: 32px 0;
-  display: inline-flex;
-  position: relative;
-  border-radius: 34px;
-}
-
-.case-study-body-container {
-  width: 50%;
-  margin: auto 0;
-  color: white;
-}
-
-.case-study-image {
-  width: 50%;
-  margin-right: 30px;
-  display: inline-flex;
-  /* height: 200px; */
-  position: relative;
-}
-
-.case-study-image img {
-  width: 100%;
-  border-radius: 20px;
-}
-
-.case-study-title {
-  text-align: left;
-  font-weight: bold;
-  font-size: 64px;
-  margin-bottom: 16px;
-}
-
-.case-study-text {
-  text-align: left;
-  margin-bottom: 30px;
-  font-size: 27px;
-}
-
-.case-study-button {
-
-}
-
-.case-study-button a {
-  color: #54575a;
-  text-decoration: none;
-}
-
-.case-study-button div {
-  background-color: white;
-  border-radius: 12px;
-  padding: 13px;
-  display: inline;
-}
-
-.case-study-button-text {
-  font-size: 20px;
-}
-
-.case-study-button-arrow {
-  font-size: 24px;
-  position: relative;
-  top: 2px;
-  margin-left: 4px;
-}
-
 .project-grid {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  justify-content: space-around;
+  margin: 30px 1% 50px 1%;
 }
 
 .project-container {
