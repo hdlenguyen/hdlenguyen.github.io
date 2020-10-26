@@ -2,6 +2,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.home-body {
+  /*width: 1000px;*/
+  margin: 0 auto;
+}
+
 .name {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -38,7 +43,7 @@ body {
 }
 
 .project-container {
-  flex: 48%;
+  /*flex: 48%;*/
   max-width: 48%;
   margin-bottom: 30px;
 }
@@ -56,6 +61,7 @@ body {
 
 .project img {
   max-width: 100%;
+  /*max-width: 500px;*/
   display: block;
 }
 
@@ -92,13 +98,13 @@ a {
 }
 
 .back-button a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .back-button div {
   font-size: 20px;
-  background-color: aliceblue;
+  background-color: black;
   padding: 11px;
   border-radius: 7px;
 }
@@ -113,7 +119,8 @@ a {
 }
 
 .portfolio-post {
-  width: 80%;
+  /*width: 80%;*/
+  width: 1000px;
   margin: 0 auto 64px auto;
 }
 
@@ -124,14 +131,15 @@ a {
 
 .portfolio-image img {
   width: 100%;
+  /*width: 1000px;*/
 }
 
 .portfolio-image-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 16px;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .portfolio-image-column {
@@ -144,6 +152,21 @@ a {
   width: 100%;
 }
 
+.portfolio-image-column2 {
+  flex: 49%;
+  max-width: 49%;
+  /*padding: 5px;*/
+}
+
+.portfolio-image-column2 img {
+  width: 100%;
+}
+
+.portfolio-image-row-caption {
+  text-align: center;
+  color: rgba(117, 117, 117, 1);
+  margin-top: 10px;
+}
 .portfolio-title {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -178,7 +201,7 @@ a {
     max-width: 100%;
   }
   .about-text {
-    width: 100%;
+    /*width: 100%;*/
   }
 
   .portfolio-image-column {
