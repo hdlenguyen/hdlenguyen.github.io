@@ -2,6 +2,37 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.nav-container {
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+.nav-name {
+  padding-left: 5%;
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav-name a {
+  color: black;
+}
+.nav-items {
+  float: right;
+  padding-right: 5%;
+}
+.nav-item {
+  display: inline;
+  font-size: 24px;
+  margin: auto 0;
+  margin-left: 12px;
+  border-bottom: 1px solid black;
+}
+
+.nav-item a {
+  color: black;
+}
+
 .home-body {
   /*width: 1000px;*/
   margin: 0 auto;
@@ -66,7 +97,7 @@ body {
 }
 
 .project-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   margin-top: 12px;
 }
@@ -122,6 +153,7 @@ a {
   /*width: 80%;*/
   width: 1000px;
   margin: 0 auto 64px auto;
+  padding-top: 64px;
 }
 
 .portfolio-image {
@@ -179,6 +211,7 @@ a {
   margin-top: 32px;
   margin-bottom: 24px;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .portfolio-body {
@@ -187,6 +220,13 @@ a {
   font-size: 18px;
 }
 
+.portfolio-body-italic {
+  text-align: center;
+  font-style: italic;
+  margin-top: -24px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
 .portfolio-caption {
   text-align: center;
   font-size: 14px;
@@ -197,6 +237,10 @@ a {
 /* Mobile Support */
 
 @media (max-width: 900px) {
+  .nav-name {
+    display: none;
+  }
+
   .project-container {
     flex: 100%;
     max-width: 100%;
