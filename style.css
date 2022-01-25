@@ -69,13 +69,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 30px 1% 0 1%;
 }
 
 .project-container {
   /*flex: 48%;*/
-  max-width: 48%;
+  max-width: 44%;
   margin-bottom: 30px;
 }
 
