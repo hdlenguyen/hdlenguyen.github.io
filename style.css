@@ -234,7 +234,16 @@ a {
   opacity: 0.54;
   margin-top: 4px;
 }
-
+.portfolio-subtitle {
+  text-align: center;
+  /*font-size: 14px;*/
+  /*opacity: 0.54;*/
+  /*margin-top: 4px;*/
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+}
 /* Mobile Support */
 
 @media (max-width: 900px) {
